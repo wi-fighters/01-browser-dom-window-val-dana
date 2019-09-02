@@ -15,9 +15,9 @@ function guessingGame() {
     }
 
     if ((guess === numberToGuess) && (count <= 3)) {
-        console.log(`Success! Number of attempts: ${count}`);
+        alert(`Success, the number was ${numberToGuess}! Attempts: ${count}`);
     } else {
-        console.log(`Sorry, you failed to guess the number in three attempts. The number was ${numberToGuess}!`)
+        alert(`Sorry, you failed to guess the number in three attempts. The number was ${numberToGuess}!`);
     }
 }
 
